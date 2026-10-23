@@ -1,0 +1,56 @@
+{
+  "created_utc": "2026-10-23T09:18:27+00:00",
+  "smoke_test": false,
+  "run_stages": "SARQ",
+  "cpu": "Intel(R) Xeon(R) CPU @ 2.20GHz",
+  "cpu_flags": [
+    "avx2"
+  ],
+  "paper_cpu_type": true,
+  "cpu_model_required": "Intel(R) Xeon(R) CPU @ 2.20GHz",
+  "stage_R_dir": "bench_ext_xeon",
+  "gpu": null,
+  "versions": {
+    "python": "3.13.16",
+    "torch": "2.11.0+cpu",
+    "transformers": "5.20.1",
+    "onnxruntime": "1.30.0",
+    "scikit-learn": "1.6.1"
+  },
+  "config": {
+    "GROUPED_SEEDS": [
+      13,
+      42,
+      87
+    ],
+    "EXTRA_SEEDS": [
+      42,
+      87
+    ],
+    "INT8_DATASETS": [
+      "twifil_clean",
+      "youtube"
+    ],
+    "BENCH_PASSES": 5,
+    "N_SINGLE": 300,
+    "BENCH_ROUNDS": 3,
+    "WARMUP_CALLS": 20,
+    "BENCH_BATCH": 32,
+    "BENCH_THREADS": 1,
+    "EVAL_THREADS": 0,
+    "SCENARIOS": {
+      "Tight budget (\u2264 25 MiB, p95 \u2264 20 ms)": [
+        25,
+        20
+      ],
+      "Moderate budget (\u2264 150 MiB, p95 \u2264 100 ms)": [
+        150,
+        100
+      ],
+      "No constraint": [
+        Infinity,
+        Infinity
+      ]
+    }
+  }
+}

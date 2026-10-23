@@ -1,0 +1,16 @@
+{
+  "dataset": "youtube_grouped",
+  "model": "svm_char",
+  "seed": 0,
+  "hyperparameters": {
+    "C": 0.3
+  },
+  "dev_macro_f1": 0.7649095995963947,
+  "macro_f1": 0.761609151631457,
+  "accuracy": 0.7883211678832117,
+  "per_class_f1": {
+    "negative": 0.8069164265129684,
+    "neutral": 0.6177650429799427,
+    "positive": 0.8601459854014598
+  }
+}

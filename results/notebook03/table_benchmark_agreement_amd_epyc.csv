@@ -1,0 +1,3 @@
+dataset,artefacts,"Spearman rho (p50, vs notebook 02)",median p50 ratio to notebook 02
+twifil_clean,19,0.989,0.58
+youtube,19,0.979,0.54

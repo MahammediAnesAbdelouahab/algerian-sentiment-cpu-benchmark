@@ -1,0 +1,16 @@
+{
+  "dataset": "youtube_grouped",
+  "model": "lr_word_char",
+  "seed": 0,
+  "hyperparameters": {
+    "C": 1.0
+  },
+  "dev_macro_f1": 0.7532857030653721,
+  "macro_f1": 0.7546652278632596,
+  "accuracy": 0.7764913163856029,
+  "per_class_f1": {
+    "negative": 0.7998528329654158,
+    "neutral": 0.6152219873150105,
+    "positive": 0.8489208633093526
+  }
+}

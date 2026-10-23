@@ -1,0 +1,8 @@
+model,seeds (random / grouped),macro-F1 random (%),macro-F1 grouped (%),Δ grouped − random (pts),accuracy random (%),accuracy grouped (%),neutral F1 grouped (%)
+NB-char,1 / 1,73.1,72.0,-1.1,78.1,76.7,52.6
+SVM-char,1 / 1,76.8,76.2,-0.6,79.4,78.8,61.8
+LR-word+char,1 / 1,75.9,75.5,-0.4,78.2,77.6,61.5
+DziriBERT,3 / 3,79.5 ± 0.8,79.4 ± 0.1,-0.2,82.0 ± 0.6,81.9 ± 0.2,66.3
+MARBERTv2,3 / 3,78.9 ± 0.2,78.9 ± 0.3,0.0,81.5 ± 0.2,81.8 ± 0.3,65.4
+CAMeLBERT-DA,3 / 3,75.5 ± 0.3,75.7 ± 0.6,0.2,78.8 ± 0.1,78.7 ± 0.3,61.5
+mE5-small,3 / 3,76.1 ± 0.4,76.2 ± 0.2,0.0,79.0 ± 0.3,79.0 ± 0.3,61.9

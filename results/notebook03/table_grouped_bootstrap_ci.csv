@@ -1,0 +1,2 @@
+dataset,comparison,Δ macro-F1 (pts),95% CI
+youtube_grouped,DziriBERT (seed 13) − SVM-char,3.3,"[2.0, 4.7]"

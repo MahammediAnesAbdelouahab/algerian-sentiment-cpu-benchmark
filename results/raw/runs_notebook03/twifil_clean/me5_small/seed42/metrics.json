@@ -1,0 +1,37 @@
+{
+  "dataset": "twifil_clean",
+  "model": "me5_small",
+  "seed": 42,
+  "hf_id": "intfloat/multilingual-e5-small",
+  "lr": 5e-05,
+  "max_len": 74,
+  "best_epoch": 4,
+  "dev_macro_f1": 0.7028559958845149,
+  "history": [
+    {
+      "epoch": 1,
+      "dev_macro_f1": 0.6862493111545692
+    },
+    {
+      "epoch": 2,
+      "dev_macro_f1": 0.7001019962369043
+    },
+    {
+      "epoch": 3,
+      "dev_macro_f1": 0.6993045666836606
+    },
+    {
+      "epoch": 4,
+      "dev_macro_f1": 0.7028559958845149
+    }
+  ],
+  "train_minutes": 0.9775949557622273,
+  "device": "Tesla T4",
+  "macro_f1": 0.7084267046165854,
+  "accuracy": 0.758496395468589,
+  "per_class_f1": {
+    "negative": 0.7488721804511278,
+    "neutral": 0.5625,
+    "positive": 0.8139079333986288
+  }
+}

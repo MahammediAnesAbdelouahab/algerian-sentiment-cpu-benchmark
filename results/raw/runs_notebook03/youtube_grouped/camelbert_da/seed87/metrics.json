@@ -1,0 +1,37 @@
+{
+  "dataset": "youtube_grouped",
+  "model": "camelbert_da",
+  "seed": 87,
+  "hf_id": "CAMeL-Lab/bert-base-arabic-camelbert-da",
+  "lr": 3e-05,
+  "max_len": 123,
+  "best_epoch": 2,
+  "dev_macro_f1": 0.7601172631666295,
+  "history": [
+    {
+      "epoch": 1,
+      "dev_macro_f1": 0.7501633847721246
+    },
+    {
+      "epoch": 2,
+      "dev_macro_f1": 0.7601172631666295
+    },
+    {
+      "epoch": 3,
+      "dev_macro_f1": 0.7562979430434852
+    },
+    {
+      "epoch": 4,
+      "dev_macro_f1": 0.7597220703076147
+    }
+  ],
+  "train_minutes": 13.274954271316528,
+  "device": "Tesla T4",
+  "macro_f1": 0.7517730939805568,
+  "accuracy": 0.7868109740750063,
+  "per_class_f1": {
+    "negative": 0.80042689434365,
+    "neutral": 0.5946291560102301,
+    "positive": 0.8602632315877905
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "dataset": "youtube_grouped",
+  "model": "me5_small",
+  "seed": 87,
+  "hf_id": "intfloat/multilingual-e5-small",
+  "lr": 5e-05,
+  "max_len": 128,
+  "best_epoch": 4,
+  "dev_macro_f1": 0.7744017548901448,
+  "history": [
+    {
+      "epoch": 1,
+      "dev_macro_f1": 0.7447572594152696
+    },
+    {
+      "epoch": 2,
+      "dev_macro_f1": 0.7622293575560221
+    },
+    {
+      "epoch": 3,
+      "dev_macro_f1": 0.7707958428684551
+    },
+    {
+      "epoch": 4,
+      "dev_macro_f1": 0.7744017548901448
+    }
+  ],
+  "train_minutes": 8.11612900098165,
+  "device": "Tesla T4",
+  "macro_f1": 0.7641984959447022,
+  "accuracy": 0.7928517493078279,
+  "per_class_f1": {
+    "negative": 0.8056256761630004,
+    "neutral": 0.6212211025489034,
+    "positive": 0.8657487091222031
+  }
+}

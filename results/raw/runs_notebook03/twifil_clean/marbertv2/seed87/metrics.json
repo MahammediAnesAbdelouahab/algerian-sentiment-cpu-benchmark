@@ -1,0 +1,37 @@
+{
+  "dataset": "twifil_clean",
+  "model": "marbertv2",
+  "seed": 87,
+  "hf_id": "UBC-NLP/MARBERTv2",
+  "lr": 3e-05,
+  "max_len": 52,
+  "best_epoch": 2,
+  "dev_macro_f1": 0.7195874989877925,
+  "history": [
+    {
+      "epoch": 1,
+      "dev_macro_f1": 0.685256038389773
+    },
+    {
+      "epoch": 2,
+      "dev_macro_f1": 0.7195874989877925
+    },
+    {
+      "epoch": 3,
+      "dev_macro_f1": 0.6802100664125339
+    },
+    {
+      "epoch": 4,
+      "dev_macro_f1": 0.6911850316104626
+    }
+  ],
+  "train_minutes": 1.3693888147672018,
+  "device": "Tesla T4",
+  "macro_f1": 0.6985981554562791,
+  "accuracy": 0.756951596292482,
+  "per_class_f1": {
+    "negative": 0.749271137026239,
+    "neutral": 0.5313807531380753,
+    "positive": 0.8151425762045231
+  }
+}

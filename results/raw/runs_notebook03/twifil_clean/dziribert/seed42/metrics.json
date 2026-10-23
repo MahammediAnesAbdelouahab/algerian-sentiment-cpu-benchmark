@@ -1,0 +1,37 @@
+{
+  "dataset": "twifil_clean",
+  "model": "dziribert",
+  "seed": 42,
+  "hf_id": "alger-ia/dziribert",
+  "lr": 3e-05,
+  "max_len": 42,
+  "best_epoch": 3,
+  "dev_macro_f1": 0.7259065402947483,
+  "history": [
+    {
+      "epoch": 1,
+      "dev_macro_f1": 0.7131393809512
+    },
+    {
+      "epoch": 2,
+      "dev_macro_f1": 0.7242291530281335
+    },
+    {
+      "epoch": 3,
+      "dev_macro_f1": 0.7259065402947483
+    },
+    {
+      "epoch": 4,
+      "dev_macro_f1": 0.7158506835277952
+    }
+  ],
+  "train_minutes": 1.1222948471705119,
+  "device": "Tesla T4",
+  "macro_f1": 0.7086691640428535,
+  "accuracy": 0.7615859938208033,
+  "per_class_f1": {
+    "negative": 0.7434471803018269,
+    "neutral": 0.5609284332688588,
+    "positive": 0.8216318785578748
+  }
+}

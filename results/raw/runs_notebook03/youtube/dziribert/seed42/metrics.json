@@ -1,0 +1,33 @@
+{
+  "dataset": "youtube",
+  "model": "dziribert",
+  "seed": 42,
+  "hf_id": "alger-ia/dziribert",
+  "lr": 3e-05,
+  "max_len": 102,
+  "best_epoch": 1,
+  "dev_macro_f1": 0.8021764199684367,
+  "history": [
+    {
+      "epoch": 1,
+      "dev_macro_f1": 0.8021764199684367
+    },
+    {
+      "epoch": 2,
+      "dev_macro_f1": 0.7918375391891814
+    },
+    {
+      "epoch": 3,
+      "dev_macro_f1": 0.7886117901214812
+    }
+  ],
+  "train_minutes": 8.504076087474823,
+  "device": "Tesla T4",
+  "macro_f1": 0.798314973785356,
+  "accuracy": 0.8211979514584725,
+  "per_class_f1": {
+    "negative": 0.8366634950840469,
+    "neutral": 0.6699751861042184,
+    "positive": 0.8883062401678028
+  }
+}

@@ -1,0 +1,97 @@
+dataset,model,seed,format,macro-F1 (%),Δ vs fp32 (pts),constant predictions
+twifil_clean,DziriBERT,13,ONNX fp32,70.84,0.0,False
+twifil_clean,DziriBERT,13,ONNX int8,70.55,-0.3,False
+twifil_clean,DziriBERT,13,ONNX int8 per-channel (no RR),69.33,-1.52,False
+twifil_clean,DziriBERT,13,ONNX int8 per-channel+RR,70.74,-0.1,False
+twifil_clean,DziriBERT,42,ONNX fp32,70.87,0.0,False
+twifil_clean,DziriBERT,42,ONNX int8,69.78,-1.09,False
+twifil_clean,DziriBERT,42,ONNX int8 per-channel (no RR),69.45,-1.42,False
+twifil_clean,DziriBERT,42,ONNX int8 per-channel+RR,69.84,-1.02,False
+twifil_clean,DziriBERT,87,ONNX fp32,70.69,0.0,False
+twifil_clean,DziriBERT,87,ONNX int8,70.91,0.22,False
+twifil_clean,DziriBERT,87,ONNX int8 per-channel (no RR),70.76,0.07,False
+twifil_clean,DziriBERT,87,ONNX int8 per-channel+RR,70.95,0.26,False
+twifil_clean,MARBERTv2,13,ONNX fp32,70.38,0.0,False
+twifil_clean,MARBERTv2,13,ONNX int8,67.84,-2.54,False
+twifil_clean,MARBERTv2,13,ONNX int8 per-channel (no RR),16.49,-53.9,True
+twifil_clean,MARBERTv2,13,ONNX int8 per-channel+RR,69.38,-1.0,False
+twifil_clean,MARBERTv2,42,ONNX fp32,70.55,0.0,False
+twifil_clean,MARBERTv2,42,ONNX int8,69.07,-1.48,False
+twifil_clean,MARBERTv2,42,ONNX int8 per-channel (no RR),16.49,-54.07,True
+twifil_clean,MARBERTv2,42,ONNX int8 per-channel+RR,69.92,-0.63,False
+twifil_clean,MARBERTv2,87,ONNX fp32,69.86,0.0,False
+twifil_clean,MARBERTv2,87,ONNX int8,66.94,-2.92,False
+twifil_clean,MARBERTv2,87,ONNX int8 per-channel (no RR),22.19,-47.67,False
+twifil_clean,MARBERTv2,87,ONNX int8 per-channel+RR,68.29,-1.57,False
+twifil_clean,CAMeLBERT-DA,13,ONNX fp32,65.81,0.0,False
+twifil_clean,CAMeLBERT-DA,13,ONNX int8,58.84,-6.96,False
+twifil_clean,CAMeLBERT-DA,13,ONNX int8 per-channel (no RR),22.85,-42.95,True
+twifil_clean,CAMeLBERT-DA,13,ONNX int8 per-channel+RR,59.93,-5.87,False
+twifil_clean,CAMeLBERT-DA,42,ONNX fp32,60.83,0.0,False
+twifil_clean,CAMeLBERT-DA,42,ONNX int8,35.95,-24.88,False
+twifil_clean,CAMeLBERT-DA,42,ONNX int8 per-channel (no RR),16.49,-44.34,True
+twifil_clean,CAMeLBERT-DA,42,ONNX int8 per-channel+RR,38.06,-22.77,False
+twifil_clean,CAMeLBERT-DA,87,ONNX fp32,63.69,0.0,False
+twifil_clean,CAMeLBERT-DA,87,ONNX int8,44.97,-18.72,False
+twifil_clean,CAMeLBERT-DA,87,ONNX int8 per-channel (no RR),18.68,-45.01,False
+twifil_clean,CAMeLBERT-DA,87,ONNX int8 per-channel+RR,45.0,-18.7,False
+twifil_clean,mE5-small,13,ONNX fp32,69.79,0.0,False
+twifil_clean,mE5-small,13,ONNX int8,69.78,-0.01,False
+twifil_clean,mE5-small,13,ONNX int8 per-channel (no RR),70.28,0.49,False
+twifil_clean,mE5-small,13,ONNX int8 per-channel+RR,69.89,0.1,False
+twifil_clean,mE5-small,42,ONNX fp32,70.84,0.0,False
+twifil_clean,mE5-small,42,ONNX int8,70.08,-0.76,False
+twifil_clean,mE5-small,42,ONNX int8 per-channel (no RR),70.12,-0.73,False
+twifil_clean,mE5-small,42,ONNX int8 per-channel+RR,70.16,-0.68,False
+twifil_clean,mE5-small,87,ONNX fp32,69.76,0.0,False
+twifil_clean,mE5-small,87,ONNX int8,68.2,-1.55,False
+twifil_clean,mE5-small,87,ONNX int8 per-channel (no RR),69.0,-0.76,False
+twifil_clean,mE5-small,87,ONNX int8 per-channel+RR,68.97,-0.79,False
+youtube,DziriBERT,13,ONNX fp32,80.17,0.0,False
+youtube,DziriBERT,13,ONNX int8,79.73,-0.44,False
+youtube,DziriBERT,13,ONNX int8 per-channel (no RR),78.98,-1.18,False
+youtube,DziriBERT,13,ONNX int8 per-channel+RR,79.75,-0.41,False
+youtube,DziriBERT,42,ONNX fp32,79.83,0.0,False
+youtube,DziriBERT,42,ONNX int8,79.88,0.04,False
+youtube,DziriBERT,42,ONNX int8 per-channel (no RR),79.5,-0.33,False
+youtube,DziriBERT,42,ONNX int8 per-channel+RR,79.77,-0.06,False
+youtube,DziriBERT,87,ONNX fp32,78.67,0.0,False
+youtube,DziriBERT,87,ONNX int8,78.67,-0.01,False
+youtube,DziriBERT,87,ONNX int8 per-channel (no RR),79.17,0.49,False
+youtube,DziriBERT,87,ONNX int8 per-channel+RR,78.48,-0.2,False
+youtube,MARBERTv2,13,ONNX fp32,79.01,0.0,False
+youtube,MARBERTv2,13,ONNX int8,79.1,0.09,False
+youtube,MARBERTv2,13,ONNX int8 per-channel (no RR),17.46,-61.56,False
+youtube,MARBERTv2,13,ONNX int8 per-channel+RR,78.35,-0.66,False
+youtube,MARBERTv2,42,ONNX fp32,79.41,0.0,False
+youtube,MARBERTv2,42,ONNX int8,78.1,-1.32,False
+youtube,MARBERTv2,42,ONNX int8 per-channel (no RR),19.74,-59.68,True
+youtube,MARBERTv2,42,ONNX int8 per-channel+RR,78.68,-0.73,False
+youtube,MARBERTv2,87,ONNX fp32,78.87,0.0,False
+youtube,MARBERTv2,87,ONNX int8,77.8,-1.07,False
+youtube,MARBERTv2,87,ONNX int8 per-channel (no RR),15.67,-63.2,False
+youtube,MARBERTv2,87,ONNX int8 per-channel+RR,78.81,-0.06,False
+youtube,CAMeLBERT-DA,13,ONNX fp32,75.39,0.0,False
+youtube,CAMeLBERT-DA,13,ONNX int8,72.18,-3.21,False
+youtube,CAMeLBERT-DA,13,ONNX int8 per-channel (no RR),19.74,-55.65,True
+youtube,CAMeLBERT-DA,13,ONNX int8 per-channel+RR,74.19,-1.2,False
+youtube,CAMeLBERT-DA,42,ONNX fp32,76.19,0.0,False
+youtube,CAMeLBERT-DA,42,ONNX int8,71.91,-4.28,False
+youtube,CAMeLBERT-DA,42,ONNX int8 per-channel (no RR),17.72,-58.47,False
+youtube,CAMeLBERT-DA,42,ONNX int8 per-channel+RR,75.28,-0.91,False
+youtube,CAMeLBERT-DA,87,ONNX fp32,76.05,0.0,False
+youtube,CAMeLBERT-DA,87,ONNX int8,69.82,-6.23,False
+youtube,CAMeLBERT-DA,87,ONNX int8 per-channel (no RR),12.32,-63.73,False
+youtube,CAMeLBERT-DA,87,ONNX int8 per-channel+RR,72.11,-3.94,False
+youtube,mE5-small,13,ONNX fp32,76.09,0.0,False
+youtube,mE5-small,13,ONNX int8,75.56,-0.53,False
+youtube,mE5-small,13,ONNX int8 per-channel (no RR),75.26,-0.83,False
+youtube,mE5-small,13,ONNX int8 per-channel+RR,75.75,-0.34,False
+youtube,mE5-small,42,ONNX fp32,76.64,0.0,False
+youtube,mE5-small,42,ONNX int8,75.94,-0.7,False
+youtube,mE5-small,42,ONNX int8 per-channel (no RR),75.49,-1.15,False
+youtube,mE5-small,42,ONNX int8 per-channel+RR,76.32,-0.32,False
+youtube,mE5-small,87,ONNX fp32,75.66,0.0,False
+youtube,mE5-small,87,ONNX int8,75.67,0.02,False
+youtube,mE5-small,87,ONNX int8 per-channel (no RR),75.18,-0.48,False
+youtube,mE5-small,87,ONNX int8 per-channel+RR,75.93,0.27,False

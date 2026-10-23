@@ -1,0 +1,36 @@
+{
+  "title": "Accuracy Is Not Enough: A Deployment-Aware Benchmark of Algerian Dialect Sentiment Classifiers for CPU Inference (code, data splits and results)",
+  "upload_type": "software",
+  "version": "1.0.0",
+  "description": "Code, data splits and raw results of the paper: audit of three public Algerian sentiment datasets, a video-grouped YouTube split, training of three TF-IDF classifiers and four transformers, ONNX export and int8 quantisation evaluated over three training seeds, a CPU benchmark on two processors, and a decomposition of the TWIFIL scores. Code: MIT. TWIFIL-derived files: CC BY-NC-SA 4.0; YouTube-derived files and results: CC BY 4.0; NArabizi-derived files: terms of the original release (see DATA_LICENSES.md).",
+  "license": "cc-by-nc-sa-4.0",
+  "keywords": [
+    "Algerian Arabic dialect",
+    "sentiment analysis",
+    "efficient inference",
+    "int8 quantisation",
+    "benchmarking"
+  ],
+  "creators": [
+    {
+      "name": "Mahammedi, Anes Abdelouahab",
+      "affiliation": "EEDIS Laboratory, Department of Computer Science, University of Naâma, Algeria",
+      "orcid": "0009-0000-6765-6870"
+    },
+    {
+      "name": "Bouziane, Abdelghani",
+      "affiliation": "EEDIS Laboratory, Department of Computer Science, University of Naâma, Algeria",
+      "orcid": "0000-0002-8583-3858"
+    },
+    {
+      "name": "Yahiaoui, Yasser",
+      "affiliation": "EEDIS Laboratory, Department of Computer Science, University of Naâma, Algeria",
+      "orcid": "0009-0006-4435-4734"
+    },
+    {
+      "name": "Bouchiha, Djelloul",
+      "affiliation": "EEDIS Laboratory, Department of Computer Science, University of Naâma, Algeria",
+      "orcid": "0000-0001-7314-4329"
+    }
+  ]
+}

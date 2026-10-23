@@ -1,0 +1,37 @@
+{
+  "dataset": "youtube",
+  "model": "marbertv2",
+  "seed": 87,
+  "hf_id": "UBC-NLP/MARBERTv2",
+  "lr": 3e-05,
+  "max_len": 104,
+  "best_epoch": 4,
+  "dev_macro_f1": 0.7903591180185668,
+  "history": [
+    {
+      "epoch": 1,
+      "dev_macro_f1": 0.7810489231040437
+    },
+    {
+      "epoch": 2,
+      "dev_macro_f1": 0.7848920003934167
+    },
+    {
+      "epoch": 3,
+      "dev_macro_f1": 0.786635104117766
+    },
+    {
+      "epoch": 4,
+      "dev_macro_f1": 0.7903591180185668
+    }
+  ],
+  "train_minutes": 12.707490901152292,
+  "device": "Tesla T4",
+  "macro_f1": 0.788700718447465,
+  "accuracy": 0.8149632598530394,
+  "per_class_f1": {
+    "negative": 0.8371212121212122,
+    "neutral": 0.6488156539649845,
+    "positive": 0.8801652892561983
+  }
+}
